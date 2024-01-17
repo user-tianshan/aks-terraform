@@ -1,13 +1,6 @@
 # aks-cluster/main.tf
 # Create the AKS cluster
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=3.0.0"
-    }
-  }
-}
+
 
 resource "azurerm_kubernetes_cluster" "aks_cluster" {
   name = var.aks_cluster_name

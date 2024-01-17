@@ -19,7 +19,7 @@ output "worker_node_subnet_id" {
 output "networking_resource_group_name" { 
   description = "The name of the Azure Resource Group."
   #value = <resource-group-resource-type>.<resource-group-resource-identifier>.name
-  value = azurerm_resource_group.example.name
+  value = azurerm_resource_group.networking.name
 }
 
 output "aks_nsg_id" {
