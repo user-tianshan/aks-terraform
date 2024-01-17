@@ -43,6 +43,7 @@ vnet_id = module.networking.vnet_id
 control_plane_subnet_id = module.networking.control_plane_subnet_id
 worker_node_subnet_id = module.networking.worker_node_subnet_id 
 # = az
+resource_group_name = module.networking.networking_resource_group_name
 
 # Define more input variables as needed...
 }
