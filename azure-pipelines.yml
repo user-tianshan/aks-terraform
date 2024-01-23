@@ -17,5 +17,5 @@ steps:
     repository: '2314sdjafas7/mydevops-project'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: '2314sdjafas7/mydevops-project:latest'
+    tags: 'latest'
 
