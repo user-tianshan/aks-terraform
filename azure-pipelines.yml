@@ -14,8 +14,8 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker'
-    repository: '2314sdjafas7/azure-devops-project'
+    repository: '2314sdjafas7/mydevops-project'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: '2314sdjafas7/azure-devops-project:latest'
+    tags: '2314sdjafas7/mydevops-project:latest'
 
